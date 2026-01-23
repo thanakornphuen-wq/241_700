@@ -1,0 +1,55 @@
+
+    ชื่อ: <input
+    id="fname"
+    class="input"
+    type="text"
+    name="fname"
+    value="ชื่อทดสอบ">
+    นามสกุล: <input
+    id="lname"
+    class="input"
+    type="text"
+    name="lname"
+    value="นามสกุลทดสอบ">
+    เบอร์โทร: <input
+    id="tel"
+    class="input"
+    type="text"
+    name="tel"
+    value="0812345678"> 
+
+    <script>
+       /* let inputs=document.getElementsByClassName("input");
+        console.log(inputs.length);
+        for(let i=0;i<inputs.length;i++){
+            console.log(inputs[i].value);
+        }
+        let inputs2=document.querySelectorAll(".input");
+        console.log(inputs2.length);
+    </script>
+
+    งานอดิเรก:
+    <input type="checkbox" name="fname" value="เล่นกีฬา"> ฟุตบอล
+    <input type="checkbox" name="fname" value="ฟังเพลง"> บาสเกตบอล
+    <input type="checkbox" name="fname" value="อ่านหนังสือ"> ว่ายน้ำ
+    <script>
+          let checkboxes=document.querySelectorAll("input[type='checkbox']" );
+            console.log(checkboxes);
+        for (let i=0;i<checkboxes.length;i++){
+            console.log(checkboxes[i].value);
+        }
+    </script>
+
+    <body>
+    <button onclick="userClick()">Click Me</button>
+    <div onclick="divclick()">Click div</div>
+    
+    <script>
+        function userClick() {
+            console.log("Button was clicked!");
+        
+        }
+        function divclick() {
+            console.log("Div was clicked!");
+        }
+    </script> 
