@@ -1,0 +1,3 @@
+//show all containers
+docker ps --all
+//
