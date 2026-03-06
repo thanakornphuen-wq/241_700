@@ -65,7 +65,7 @@ const submitData = async () => {
     } catch (error) {
         console.log('Error message:', error.message);
         console.log('Error details:', error.errors);   
-    //    if (error.response) {
+    //    if (error.response) {/s
     //        console.log('Error response:', error.response.data.message);
     //    }
         let htmlData = '<div>'
