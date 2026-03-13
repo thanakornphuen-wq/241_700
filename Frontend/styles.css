@@ -104,18 +104,24 @@ input[type="radio"], input[type="checkbox"] {
     background-color: #0056b3;
 }
 
-.message {
-    background-color: #333;
+.button:active {
+    transform: scale(0.98);
+}
+
+.message{
+    background-color: purple;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 6px;
     display: none;
 }
+
 .message.success{
-    background-color: #00b306;
+    background-color: lightgreen;
     display: block;
 }
+
 .message.danger{
-    background-color: rgb(255, 0, 0);
+    background-color: lightcoral;
     display: block;
 }
